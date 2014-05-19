@@ -17,25 +17,27 @@
 // Temboo & Google Calendar/GMail configuration.
 
 // Temboo account username:
-#define TEMBOO_ACCOUNT      "tdicola"
+#define TEMBOO_ACCOUNT      "YOUR TEMBOO ACCOUNT NAME"
 // Temboo account app name:
-#define TEMBOO_APP          "myFirstApp"
+#define TEMBOO_APP          "YOUR TEMBOO APPLICATION NAME"
 // Temboo account app key:
-#define TEMBOO_KEY          "c4845451-d3c3-431c-8"
+#define TEMBOO_KEY          "YOUR TEMBOO APPLICATION KEY"
 // Temboo Google calendar credential name:
-#define CALENDAR_CREDENTIALS  "Google"
+#define CALENDAR_CREDENTIALS  "GoogleCalendar"
 // Google calendar ID:
-#define CALENDAR_ID         "tony@tonydicola.com"
+#define CALENDAR_ID         "YOUR GMAIL ADDRESS"
 // Temboo Gmail credential name:
-#define GMAIL_CREDENTIALS    "Gmail"
+#define GMAIL_CREDENTIALS    "GoogleMail"
 // Mail subject keyword to trigger alarm:
 #define GMAIL_ALARM_KEYWORD  "WAKE UP"
 
 // Alarm configuration.
 // Name of the alarm MP3.
 #define ALARM_FILE        "/mnt/sda1/arduino/www/SmartAlarmClock/Annoying_Alarm_Clock.mp3"
-// Options to specify when running madplay command.  
-#define ALARM_OPTIONS     "--attenuate=-36"
+// Options to specify when running madplay command.
+// The --attenuate command controls the volume of the alarm (in decibels).  A negative value will reduce the
+// volume, and a positive value will increase the volume.
+#define ALARM_OPTIONS     "--attenuate=-12"
 // Minutes to wait between calendar refreshes:
 #define ALARM_REFRESH_MINS  120
 // Meetings after this hour (0-23) will be ignored.  Set to 24 to disable this behavior.
