@@ -37,13 +37,13 @@
 // Options to specify when running madplay command.  
 #define ALARM_OPTIONS     "--attenuate=-36"
 // Minutes to wait between calendar refreshes:
-#define ALARM_REFRESH_MINS  60 
+#define ALARM_REFRESH_MINS  120
 // Meetings after this hour (0-23) will be ignored.  Set to 24 to disable this behavior.
-#define ALARM_LATEST_HOUR   12 
+#define ALARM_LATEST_HOUR   12
 // Amount of time before the first meeting to fire the alarm.
 #define ALARM_BUFFER_MINS   60 
 // Minutes to wait before checking for new wake up emails.
-#define ALARM_KEYWORD_MINS  10 
+#define ALARM_KEYWORD_MINS  120 
 
 // Touchscreen calibration.
 // You don't need to change these values.
