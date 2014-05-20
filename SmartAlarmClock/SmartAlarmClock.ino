@@ -3,7 +3,7 @@
 // Released under an MIT license (http://opensource.org/licenses/MIT)
 
 #include <TouchScreen.h> 
-#include <TFT.h>
+#include <TFTShield.h>
 #include <Process.h>
 
 // Functionality:
