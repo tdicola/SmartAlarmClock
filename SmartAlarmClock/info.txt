@@ -1,7 +1,0 @@
-install:
-
-opkg update
-opkg install kmod-usb-audio
-opkg install madplay
-opkg install alsa-utils
-opkg install python-openssl
