@@ -263,7 +263,7 @@ int get_time() {
 int get_alarm() {
   Process findAlarm;
   findAlarm.begin("python");
-  findAlarm.addParameter("/mnt/sda1/arduino/www/yun_clock/find_alarm.py");
+  findAlarm.addParameter("/mnt/sda1/arduino/www/SmartAlarmClock/find_alarm.py");
   findAlarm.addParameter(TEMBOO_ACCOUNT);
   findAlarm.addParameter(TEMBOO_APP);
   findAlarm.addParameter(TEMBOO_KEY);
@@ -294,7 +294,7 @@ int get_alarm() {
 unsigned long get_mail_lastseen() {
   Process checkMail;
   checkMail.begin("python");
-  checkMail.addParameter("/mnt/sda1/arduino/www/yun_clock/check_email.py");
+  checkMail.addParameter("/mnt/sda1/arduino/www/SmartAlarmClock/check_email.py");
   checkMail.addParameter(TEMBOO_ACCOUNT);
   checkMail.addParameter(TEMBOO_APP);
   checkMail.addParameter(TEMBOO_KEY);
